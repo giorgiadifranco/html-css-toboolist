@@ -107,4 +107,33 @@ h3::before{
     color:white
 
 }
+.recruiting{
+    background-color: var(--tobo-recruiting);
+    border-color: var(--tobo-recruiting);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
+}
+    .mobile{
+        background-color: var(--tobo-mobile);
+    border-color: var(--tobo-mobile);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
+    }
+.website{
+    background-color: var(--tobo-website);
+    border-color: var(--tobo-website);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
+}
+.sales{
+    background-color: rgb(162, 233, 55);
+    border-color: rgb(162, 233, 55);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
+
+}
 /* #endregion main */

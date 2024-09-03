@@ -54,7 +54,7 @@ body{
     display:inline-block
     }
 
-    .list{
+    .button{
         margin: 10%;
         margin-left:20%;
     }
@@ -71,5 +71,40 @@ body{
         padding:5px
     }
 
+.list{
+    margin: 10%;
+    margin-left: 20%;
+}
+h3::before{
+    content:'\25BE';
+}
+.done::before{
+    content:'\2611';
+    
+}
+.check::before{
+    content: '\2705';
+    display: inline-block;
+}
+.cross::before{
+    content:'\274C';
+}
+.editorial{
+    background-color: var(--tobo-firstbutton);
+    border-color: var(--tobo-firstbutton);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
+}
+#goals{
+    display: inline;
+}
+.goals{
+    background-color: var(--tobo-goals);
+    border-color: var(--tobo-goals);
+    border-radius: 30%;
+    display: inline-block;
+    color:white
 
+}
 /* #endregion main */

@@ -1,4 +1,5 @@
 :root{
+    --tobo-backgorund: #f6f8f9;
     --tobo-primaryblack: #030303;
     --tobo-secondaryblack:#444851;
     --tobo-firstbutton: #47adf1;
@@ -11,14 +12,19 @@
 }
 /* #region utility classes */
 .container{
+    background-color: var(--tobo-backgorund);
     width:80%;
     margin:auto;
+}
+body{
+    background-color: var(--tobo-backgorund);
 }
 /* #endregion utility classes */
 
 
 /* #region header */
-#app_header{
+
+.header{
     background-color: white;
 }
 .logo_img{
@@ -32,7 +38,38 @@
     display:inline-block;
    vertical-align: middle;
    padding-left:2%;
-   color: var(--tobo-primaryblack)
+   color: var(--tobo-primaryblack);
+   background-color: white;
   }
 
 /* #endregion header */
+/* #region main */
+
+#app_main{
+    width:700px;
+    height: 900px;
+    background-color: white;
+    margin:10% 40%;
+    border-radius:10%;
+    display:inline-block
+    }
+
+    .list{
+        margin: 10%;
+        margin-left:20%;
+    }
+
+    .task{
+        background-color: var(--tobo-firstbutton);
+        border: var(--tobo-firstbutton);
+        border-radius: 10%;
+        padding:5px
+    }
+    .section{
+        border: var(--tobo-firstbutton);
+        border-radius: 10%;
+        padding:5px
+    }
+
+
+/* #endregion main */

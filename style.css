@@ -1,0 +1,38 @@
+:root{
+    --tobo-primaryblack: #030303;
+    --tobo-secondaryblack:#444851;
+    --tobo-firstbutton: #47adf1;
+    --tobo-goals:#9c72e4;
+    --tobo-recruiting: #64c0a9;
+    --tobo-mobile: #f29e33;
+    --tobo-website: #d863a1;
+    --tobo-do:#b4e2d8;
+    --tobo-undo: #f09591;
+}
+/* #region utility classes */
+.container{
+    width:80%;
+    margin:auto;
+}
+/* #endregion utility classes */
+
+
+/* #region header */
+#app_header{
+    background-color: white;
+}
+.logo_img{
+    display:inline-block;
+    vertical-align: middle;
+    padding-top: 1rem;
+    padding-left: 1rem ;
+    padding-bottom: 1rem;
+}
+.logo_txt{
+    display:inline-block;
+   vertical-align: middle;
+   padding-left:2%;
+   color: var(--tobo-primaryblack)
+  }
+
+/* #endregion header */
